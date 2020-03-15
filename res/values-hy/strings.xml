@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 The Android Open Source Project
-
+<!--  Copyright (C) 2010 The Android Open Source Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -16,45 +13,36 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_label" msgid="3658948994665187911">"Ներբեռնման կառավարիչ"</string>
-    <string name="storage_description" msgid="7982444311558023664">"Ներբեռնումներ"</string>
-    <string name="permlab_downloadManager" msgid="7779544811202855500">"Գործարկել ներբեռնման կառավարիչը:"</string>
-    <string name="permdesc_downloadManager" msgid="4237406545998908947">"Թույլատրում է հավելվածին օգտագործել ներբեռնման կառավարիչը և կիրառել ֆայլերի ներբեռնման համար: Վնասաբեր ծրագրերը կարող են օգտագործել սա՝ ներբեռնումները վնասելու և անձնական տեղեկություններն օգտագործելու համար:"</string>
-    <string name="permlab_downloadManagerAdvanced" msgid="7103642833308809655">"Ընդլայնված ներբեռնման կառավարչի գործառույթներ:"</string>
-    <string name="permdesc_downloadManagerAdvanced" msgid="2659546004160962761">"Թույլատրում է հավելվածին օգտագործել ներբեռնման կառավարչի ընդլայնված գործառույթները: Վնասաբեր ծրագրերը կարող են օգտագործել սա՝ ներբեռնումները վնասելու և անձնական տեղեկություններն օգտագործելու համար:"</string>
-    <string name="permlab_downloadCompletedIntent" msgid="945913803765675685">"Ուղարկել ներբեռնման ծանուցումներ:"</string>
-    <string name="permdesc_downloadCompletedIntent" msgid="2094706189855699533">"Թույլատրում է հավելվածին ուղարկել ավարտված ներբեռնումների մասին ծանուցումներ: Վնասաբեր ծրագրերը կարող են օգտագործել սա՝ այլ ֆայլեր ներբեռնող ծրագրերը վնասելու համար:"</string>
-    <string name="permlab_downloadCacheNonPurgeable" msgid="3069534308882047412">"Խնայել ներբեռնման շտեմի տարածությունը"</string>
-    <string name="permdesc_downloadCacheNonPurgeable" msgid="2408760720334570420">"Թույլատրում է հավելվածին ներբեռնել ֆայլերը ներբեռնման շտեմ, որոնք հնարավոր չէ ավտոմատ ջնջել, երբ ներբեռնման կառավարիչը հավելյալ ծավալի կարիք ունի:"</string>
-    <string name="permlab_downloadWithoutNotification" msgid="8837971946078327262">"ներբեռնել ֆայլերը՝ առանց ծանուցման"</string>
-    <string name="permdesc_downloadWithoutNotification" msgid="8483135034298639727">"Թույլատրում է հավելվածին ներբեռնել ֆայլեր ներբեռնման կառավարչի միջոցով՝ առանց օգտագործողին որևէ ծանուցում ցուցադրելու:"</string>
-    <string name="permlab_accessAllDownloads" msgid="2436240495424393717">"Օգտագործել բոլոր համակարգային ներբեռնումները"</string>
-    <string name="permdesc_accessAllDownloads" msgid="1871832254578267128">"Թույլատրում է հավելվածին դիտել և փոփոխել բոլոր ներբեռնումները` կապված համակարգի ցանկացած ծրագրի հետ:"</string>
-    <string name="download_unknown_title" msgid="7015124071247271585">"&lt;Անվերնագիր&gt;"</string>
-    <string name="notification_download_complete" msgid="5443563299253103667">"Ներբեռնումն ավարտված է:"</string>
-    <string name="notification_download_failed" msgid="8612136111952014978">"Ներբեռնումը ձախողվել է:"</string>
-    <string name="notification_need_wifi_for_size" msgid="2556172885154833575">"Ներբեռնման ծավալը պահանջում է Wi-Fi:"</string>
-    <string name="notification_paused_in_background" msgid="4328508073283591772">"Ընդմիջված է հետնաշերտում:"</string>
-    <string name="wifi_required_title" msgid="1995971416871498179">"Ներբեռնումը չափազանց մեծ է օպերատորի ցանցի համար"</string>
-    <string name="wifi_required_body" msgid="3067694630143784449">"Դուք պետք է օգտագործեք Wi-Fi՝ այս <xliff:g id="SIZE">%1$s </xliff:g> ներբեռնումն ավարտելու համար: \n\nՀպեք <xliff:g id="QUEUE_TEXT">%2$s </xliff:g>՝ սկսելու այս ներբեռնումը հաջորդ անգամ, երբ միացած կլինեք որևէ Wi-Fi ցանցի:"</string>
-    <string name="wifi_recommended_title" msgid="7441589306734687400">"Հերթագրե՞լ ավելի ուշ ներբեռնելու համար:"</string>
-    <string name="wifi_recommended_body" msgid="1314735166699936073">"Այս <xliff:g id="SIZE">%1$s </xliff:g> ներբեռնումը հիմա սկսելը կարող է կարճեցնել ձեր մարտկոցի կյանքը և/կամ բերել ձեր բբջային տվյալների կապի ավելորդ օգտագործման, որը կարող է ուղեկցվել ծախսերով ձեր բջջային օպերատորի կողմից՝ կախված ձեր տվյալների փաթեթից:\n\n Հպեք <xliff:g id="QUEUE_TEXT">%2$s</xliff:g> ստորև` այս ներբեռնումը սկսելու հաջորդ անգամ, երբ միացած կլինեք որևէ Wi-Fi ցանցի:"</string>
-    <string name="button_queue_for_wifi" msgid="422576726189179221">"Հերթագրել"</string>
-    <string name="button_cancel_download" msgid="2430166148737975604">"Չեղարկել"</string>
-    <string name="button_start_now" msgid="792123674007840864">"Սկսել հիմա"</string>
-    <plurals name="notif_summary_active" formatted="false" msgid="7290448463204837173">
-      <item quantity="one">Ներբեռնվում է <xliff:g id="NUMBER">%d</xliff:g> ֆայլ</item>
-      <item quantity="other">Ներբեռնվում է <xliff:g id="NUMBER">%d</xliff:g> ֆայլ</item>
-    </plurals>
-    <plurals name="notif_summary_waiting" formatted="false" msgid="2814217662029273005">
-      <item quantity="one">Սպասում է <xliff:g id="NUMBER">%d</xliff:g> ֆայլ</item>
-      <item quantity="other">Սպասում է <xliff:g id="NUMBER">%d</xliff:g> ֆայլ</item>
-    </plurals>
-    <string name="download_remaining" msgid="3139295890887972718">"մինչ ավարտը՝ <xliff:g id="DURATION">%s</xliff:g>"</string>
-    <string name="download_no_application_title" msgid="7935659741162801699">"Հնարավոր չէ բացել ֆայլը"</string>
-    <string name="root_downloads" msgid="4098414876292351487">"Ներբեռնումներ"</string>
-    <string name="download_queued" msgid="3302638231377947451">"Հերթագրված է"</string>
-    <string name="download_running" msgid="3925050393361158266">"Ընթացքի մեջ է"</string>
-    <string name="download_error" msgid="5144180777324573236">"Չի կատարվել"</string>
-    <string name="download_running_percent" msgid="4305080769167320204">"Ընթացքի մեջ է` <xliff:g id="PERCENTAGE">%s</xliff:g>"</string>
+    <string name="app_label" msgid="4847371117203587513">"Ներբեռնումներ"</string>
+    <string name="download_title_sorted_by_date" msgid="6033509257480233878">"Ներբեռնումներ՝ դասավորված ըստ ամսաթվի"</string>
+    <string name="download_title_sorted_by_size" msgid="2575551670173644253">"Ներբեռնումներ՝ դասավորված ըստ չափի"</string>
+    <string name="no_downloads" msgid="1654764193290918538">"Ներբեռնումներ չկան:"</string>
+    <string name="missing_title" msgid="3827247802608803753">"&lt;Անհայտ&gt;"</string>
+    <string name="button_sort_by_size" msgid="7952187121189086395">"Դասավորել ըստ չափի"</string>
+    <string name="button_sort_by_date" msgid="2064919145709585942">"Դասավորել ըստ ամսաթվի"</string>
+    <string name="download_queued" msgid="4128038702528588781">"Հերթագրված է"</string>
+    <string name="download_running" msgid="2046492059586594352">"Ընթացքի մեջ է"</string>
+    <string name="download_success" msgid="3895973294927323747">"Ավարտված է"</string>
+    <string name="download_error" msgid="6652902885480887230">"Ձախողվել է"</string>
+    <string name="dialog_title_not_available" msgid="7793272183758002416">"Հնարավոր չէ ներբեռնել"</string>
+    <string name="dialog_failed_body" msgid="4538779125597383173">"Ցանկանու՞մ եք կրկնել ֆայլի ներբեռնումը ավելի ուշ, թե՞ ջնջել այն հերթացանկից:"</string>
+    <string name="dialog_title_queued_body" msgid="7481231558376227012">"Ֆայլը հերթացանկում է"</string>
+    <string name="dialog_queued_body" msgid="2374398802707010234">"Այս ֆայլը հերթագրված է հետագայում ներբեռնման համար, այնպես որ` դեռ հասանելի չէ:"</string>
+    <string name="dialog_file_missing_body" msgid="7896653198405160564">"Հնարավոր չէ գնտել ներբեռնված ֆայլը:"</string>
+    <string name="dialog_insufficient_space_on_external" msgid="1847671628253287114">"Հնարավոր չէ ավարտել ներբեռնումը: Չկա բավարար տարածություն արտաքին պահուստում:"</string>
+    <string name="dialog_insufficient_space_on_cache" msgid="703074452633529558">"Հնարավոր չէ ավարտել ներբեռնումը: Չկա բավարար տարածություն ներքին ներբեռնման պահուստում:"</string>
+    <string name="dialog_cannot_resume" msgid="3101433441301206866">"Ներբեռնումը խզվել է, և այն հնարավոր չէ վերականգնել:"</string>
+    <string name="dialog_file_already_exists" msgid="6849168874901909994">"Հնարավոր չէ ներբեռնել: Նպատակային ֆայլն արդեն գոյություն ունի:"</string>
+    <string name="dialog_media_not_found" msgid="7376030905821161865">"Հնարավոր չէ ներբեռնել: Արտաքին կրիչը հասանելի չէ:"</string>
+    <string name="download_no_application_title" msgid="1209223807604231431">"Հնարավոր չէ բացել ֆայլը"</string>
+    <string name="remove_download" msgid="244394809285977300">"Հեռացնել"</string>
+    <string name="delete_download" msgid="1861638125603383676">"Ջնջել"</string>
+    <string name="keep_queued_download" msgid="6905870466259272973">"Պահել"</string>
+    <string name="cancel_running_download" msgid="8586888328847044473">"Չեղարկել"</string>
+    <string name="retry_download" msgid="6957856437473044831">"Կրկնել"</string>
+    <string name="start_now_download" msgid="1518778561803897734">"Սկսել հիմա"</string>
+    <string name="deselect_all" msgid="4673983454506880405">"Չեղարկել ընտրությունը"</string>
+    <string name="select_all" msgid="7469093306474000460">"Ընտրել բոլորը"</string>
+    <string name="selected_count" msgid="5876842902167894010">"Ընտրված են <xliff:g id="NUMBER">%1$d</xliff:g>-ը <xliff:g id="TOTAL">%2$d</xliff:g>-ից"</string>
+    <string name="download_share_dialog" msgid="5212760257251501969">"Կիսվել"</string>
 </resources>
